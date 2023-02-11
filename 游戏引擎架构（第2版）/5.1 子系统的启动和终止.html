@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>vuepress ntes</title><meta name="description" content="">
+    <link rel="preload" href="/vuepress-notes/assets/style-11b44a4d.css" as="style"><link rel="stylesheet" href="/vuepress-notes/assets/style-11b44a4d.css">
+    <link rel="modulepreload" href="/vuepress-notes/assets/app-aba08b68.js"><link rel="modulepreload" href="/vuepress-notes/assets/framework-204010b2.js"><link rel="modulepreload" href="/vuepress-notes/assets/5.1 子系统的启动和终止.html-0a701ab2.js"><link rel="modulepreload" href="/vuepress-notes/assets/5.1 子系统的启动和终止.html-441d702c.js"><link rel="prefetch" href="/vuepress-notes/assets/index.html-02f5148c.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/Assimp.html-fdc1bc41.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/网格.html-0bcc45ce.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/index.html-ef875ab7.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/5.0 第5章 游戏支持系统.html-b14973d0.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/3.4 变换矩阵.html-d0bbcbfb.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/2.1.1 OpenGL管线.html-e9fa5210.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/2.1.2 顶点着色器.html-b6a0bace.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/404.html-f9875e7b.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/index.html-1410b2f0.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/Assimp.html-fb0b3b80.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/网格.html-18f7f709.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/index.html-c22b0479.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/5.0 第5章 游戏支持系统.html-293e3ac8.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/3.4 变换矩阵.html-4ea0e522.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/2.1.1 OpenGL管线.html-9934dee3.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/2.1.2 顶点着色器.html-f6b81a9f.js" as="script"><link rel="prefetch" href="/vuepress-notes/assets/404.html-d1e63d77.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/vuepress-notes/" class=""><!----><span class="site-name">vuepress ntes</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><!----><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><!----><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading"> <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/vuepress-notes/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E6%9E%B6%E6%9E%84%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89/5.1%20%E5%AD%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%90%AF%E5%8A%A8%E5%92%8C%E7%BB%88%E6%AD%A2.html#_5-1-子系统的启动和终止" class="router-link-active router-link-exact-active sidebar-item" aria-label="5.1 子系统的启动和终止"><!--[--><!--]--> 5.1 子系统的启动和终止 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/vuepress-notes/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E6%9E%B6%E6%9E%84%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89/5.1%20%E5%AD%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%90%AF%E5%8A%A8%E5%92%8C%E7%BB%88%E6%AD%A2.html#_5-1-1-c-的静态初始化次序-是不可用的" class="router-link-active router-link-exact-active sidebar-item" aria-label="5.1.1 C++的静态初始化次序(是不可用的)"><!--[--><!--]--> 5.1.1 C++的静态初始化次序(是不可用的) <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h2 id="_5-1-子系统的启动和终止" tabindex="-1"><a class="header-anchor" href="#_5-1-子系统的启动和终止" aria-hidden="true">#</a> 5.1 子系统的启动和终止</h2><p>游戏引擎是一个复杂软件，由多个互相合作的子系统结合而成。当引擎启动时，必须依次 配置及初始化每个子系统。各子系统间的相互依赖关系，隐含地定义了每个子系统所需的启动次序。</p><p>例如，子系统B依赖于子系统A，那么在启动B之前，必须先启动A。各子系统的终止 通常会采用反向次序，即先终止B，再终止A。</p><h3 id="_5-1-1-c-的静态初始化次序-是不可用的" tabindex="-1"><a class="header-anchor" href="#_5-1-1-c-的静态初始化次序-是不可用的" aria-hidden="true">#</a> 5.1.1 C++的静态初始化次序(是不可用的)</h3><p>由于多数新式游戏引擎皆采用C++为编程语言，我们应考虑一下，C++原生的启动及终止语义是否可做启动及终止引擎子系统之用。在C++中，在调用程序进人点(nain()或Windows下的WinMain())之前，全局对象及静态对象已被构建。然而，我们完全不可预知这些构造丽数的调用次序<a href="%E5%9C%A8GCC%E4%B8%AD%E5%8F%AF%E4%BD%BF%E7%94%A8init_priority()%E5%B1%9E%E6%80%A7%E8%AE%BE%E5%AE%9A%E5%8F%98%E9%87%8F%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E6%AC%A1%E5%BA%8F%E3%80%82">^1</a>。在main()或winMain()结束返回之后，会调用全局对象及静态对象的析构丽数，而这些函数的调用次序也是无法预知的。显而易见，此C++行为并不适合用来初始化及终止游戏引擎的子系统。实际上，这对任何含互相依赖全局对象的软件都不适合。</p><p>这实在令人遗憾，因为要实现各主要子系统，例如游戏引擎中的子系统，常见的设计模式是为每个子系统定义单例类(singletonclass)，通常称作管理器(manager)。若C++能给予我们更多控制能力，指明全局或静态实例的构建、析构次序，那么我们就可以把单例定义为全局变量，而不必使用动态内存分配。例如，各子系统可写成以下形式：</p><div class="language-cpp line-numbers-mode" data-ext="cpp"><pre class="language-cpp"><code><span class="token keyword">class</span> <span class="token class-name">RenderManage</span>
+<span class="token punctuation">{</span>
+<span class="token keyword">public</span> <span class="token operator">:</span>
+	<span class="token function">RenderManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token comment">// 启动管理器 …</span>
+	<span class="token punctuation">}</span>
+
+	<span class="token operator">~</span><span class="token function">RenderManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token comment">// 终止管理器 …</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 单例实例</span>
+<span class="token keyword">static</span> RenderManager gRenderManager<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可惜，由于没法直接控制构建、析构次序，此方法行不通。</p><h4 id="_5-1-1-1-按需构建" tabindex="-1"><a class="header-anchor" href="#_5-1-1-1-按需构建" aria-hidden="true">#</a> 5.1.1.1 按需构建</h4><p>要应对此问题，可使用一个C++的小技巧：在函数内声明的静态变量并不会于main()之前构建，而是在第一次调用该函数时才构建的。因此，若把全局单例改为静态变量，我们就 可以控制全局单例的构建次序。[^2]</p><p>[^2]:这称作Meyers单例，延续于ScottMeyers的More fectiveC+一。一一译者注</p><div class="language-cpp line-numbers-mode" data-ext="cpp"><pre class="language-cpp"><code><span class="token keyword">class</span> <span class="token class-name">RenderManage</span> 
+<span class="token punctuation">{</span>
+<span class="token keyword">public</span><span class="token operator">:</span>
+    <span class="token comment">// 取得唯一实例 </span>
+    <span class="token keyword">static</span> RenderManagerg<span class="token operator">&amp;</span> <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span> 
+    <span class="token punctuation">{</span> 
+        <span class="token comment">// 此函数中的静态变量将于函数被首次调用时构建 </span>
+        <span class="token keyword">static</span> RenderManager sSingleton<span class="token punctuation">;</span>
+
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 714376485@qq.com">liben</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/vuepress-notes/assets/app-aba08b68.js" defer></script>
+  </body>
+</html>

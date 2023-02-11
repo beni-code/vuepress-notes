@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Menu","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"OpenGL-CN教程","slug":"opengl-cn教程","link":"#opengl-cn教程","children":[]}],"git":{"updatedTime":1676040624000,"contributors":[{"name":"liben","email":"714376485@qq.com","commits":2}]},"filePathRelative":"README.md"}');export{e as data};

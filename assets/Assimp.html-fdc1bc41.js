@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5bd40982","path":"/OpenGL-CN%E6%95%99%E7%A8%8B/Assimp.html","title":"Assimp","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1676039163000,"contributors":[{"name":"liben","email":"714376485@qq.com","commits":5}]},"filePathRelative":"OpenGL-CN教程/Assimp.md"}');export{e as data};
